@@ -152,6 +152,7 @@ table {
   --blue: #3b74f2;
   --green: #227a00;
   --greenLight: #c7ffa6;
+  --red: #ff0000;
   /* FONTS */
   --fontMedium: "Poppins-Medium", Arial, Helvetica, sans-serif;
   --fontBold: "Poppins-Bold", Arial, Helvetica, sans-serif;
@@ -205,5 +206,4 @@ body {
 .legend {
   font-size: var(--size14);
   font-family: var(--fontMedium);
-  opacity: 0.5;
 }
