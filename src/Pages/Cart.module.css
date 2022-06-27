@@ -143,7 +143,7 @@
 .total div p {
   margin-top: 10px;
   color: var(--green);
-  text-align: center;
+  text-align: right;
 }
 
 .shipping {

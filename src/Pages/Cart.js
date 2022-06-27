@@ -18,7 +18,7 @@ const Cart = () => {
       setProducts(resolve.record.items);
       setLoading(false);
     } catch (err) {
-      console.log(err);
+      alert("Houve um erro na requisição");
     }
   }
 
@@ -123,7 +123,7 @@ const Cart = () => {
         ) : (
           <div className={styles.emptyCart}>
             <p className="textMedium">
-              Carrinho vazio. Adicione os produtos acima clicando neles.
+              Carrinho vazio. Clique nos produtos acima para adicionar.
             </p>
           </div>
         )}
